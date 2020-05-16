@@ -1,0 +1,8 @@
+1.pyinstaller命令:
+pyinstaller -i *.ico -D *.py		//各种依赖文件跟调试信息
+pyinstaller -i *.ico -Fw *.py		//只有一个exe
+
+
+2.cxfreeze命令
+cxfreeze water.py --target-dir dist	//含控制台
+cxfreeze water.py --target-dir dist --base-name="win32gui"
